@@ -1,0 +1,12 @@
+{
+  "brickwright:command-desc": "Place converted Lego/voxel schematics into the world",
+  "brickwright:no-schematics": "No schematics found in {0}. Convert a build with tools/ldr2vs.py and drop the .json there.",
+  "brickwright:not-found": "Schematic '{0}' not found. Use /bw list to see available schematics.",
+  "brickwright:pasted": "Placed '{0}' ({1}x{2}x{3}, {4} blocks). Use /bw undo to revert.",
+  "brickwright:undone": "Reverted last paste.",
+  "brickwright:nothing-to-undo": "Nothing to undo.",
+  "brickwright:undo-modified": "Cannot undo: {0} block(s) of the pasted structure have been modified since pasting. Undo only works on an untouched paste.",
+  "brickwright:set": "Position set. The structure will stay; Undo can still remove it.",
+  "brickwright:nothing-pending": "Nothing pending. Place a schematic with a direction button first.",
+  "brickwright:hotkey-name": "Brickwright placement dialog"
+}

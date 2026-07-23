@@ -1,0 +1,87 @@
+{
+  "_comment": "Radford's Artistic Bungalows (1908) p113, Design No. 5007. 30' x 36' temple-front cottage: side-gabled main block (ridge W-E), full-width classical portico with white columns, chalk entablature and a proud pediment (ridge N-S) facing the street. Clapboard walls -> oak planks, columns -> polished chalk posts. Scale 1 block = 2 ft; z0 = north/back.",
+  "name": "radford-5007",
+  "legend": {
+    "#": {"type": "wall",    "block": "game:planks-oak-ud"},
+    "+": {"type": "wall",    "block": "game:rockpolished-chalk"},
+    "w": {"type": "window",  "block": "game:planks-oak-ud",
+          "glass": "game:glass-plain"},
+    "W": {"type": "window",  "block": "game:rockpolished-chalk",
+          "glass": "game:glass-plain"},
+    "d": {"type": "door",    "block": "game:planks-oak-ud"},
+    "e": {"type": "door",    "block": "game:rockpolished-chalk"},
+    "C": {"type": "chimney", "block": "game:claybricks-good-fire"},
+    "P": {"type": "post",    "block": "game:rockpolished-chalk",
+          "floor": "game:stonebricks-andesite"},
+    ".": {"type": "floor",   "block": "game:planks-oak-ud"},
+    "p": {"type": "floor",   "block": "game:stonebricks-andesite"}
+  },
+  "storeys": [
+    {
+      "_comment": "ground: kitchen NW (back door), bedroom NE, dining/living W, bedroom SE, hall to the front door; portico slab z14-17 with six chalk columns on the front line",
+      "floor_y": 0,
+      "wall_h": 3,
+      "grid": [
+        "###ww##d##ww###",
+        "#......+......#",
+        "w......+C.....w",
+        "#......+......#",
+        "#......+......#",
+        "#++e++++++e+++#",
+        "#......+......#",
+        "w......e......w",
+        "#......+......#",
+        "w......+......w",
+        "#......+......#",
+        "#......+......#",
+        "#......+......#",
+        "###ww##d##ww###",
+        "  pppppppppppp ",
+        "  pppppppppppp ",
+        "  pppppppppppp ",
+        "  pppppppppppp ",
+        "  PpPpPppPpPpP "
+      ]
+    },
+    {
+      "_comment": "gable ends E/W as chalk with attic windows; portico entablature ring (perimeter of the porch) carries the pediment fill",
+      "floor_y": 4,
+      "wall_h": 2,
+      "grid": [
+        "               ",
+        " ............. ",
+        "+.......C.....+",
+        "+.............+",
+        "W.............W",
+        "W.............W",
+        "W.............W",
+        "W.............W",
+        "W.............W",
+        "W.............W",
+        "+.............+",
+        "+.............+",
+        " ............. ",
+        "               ",
+        "  ++++++++++++ ",
+        "  +pppppppppp+ ",
+        "  +pppppppppp+ ",
+        "  +pppppppppp+ ",
+        "  ++++++++++++ "
+      ]
+    }
+  ],
+  "roofs": [
+    {"_comment": "main north slope with rake overhangs",
+     "rect": [-1, -1, 15, 6], "edge": "N", "eave_y": 3, "run": 1,
+     "slanted": "grayclay"},
+    {"_comment": "main south slope down to the front wall",
+     "rect": [-1, 7, 15, 13], "edge": "S", "eave_y": 4, "run": 1,
+     "slanted": "grayclay"},
+    {"_comment": "pediment west slope over the portico, ridge x7-8",
+     "rect": [1, 14, 7, 19], "edge": "W", "eave_y": 6, "run": 1,
+     "slanted": "grayclay"},
+    {"_comment": "pediment east slope",
+     "rect": [8, 14, 14, 19], "edge": "E", "eave_y": 6, "run": 1,
+     "slanted": "grayclay"}
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "_comment": "Radford's Artistic Bungalows (1908) p60, Design No. 6078-B. 19'6 x 38' narrow-lot 1.5-storey bungalow: front-facing gable (ridge N-S), two bedrooms + bath upstairs under the roof with gable window bands, stairs along the east wall of the living room, flat-roofed porch across the street front. Scale 1 block = 2 ft; z0 = north/back.",
+  "name": "radford-6078b",
+  "stairs": {
+    "wood": "oak"
+  },
+  "legend": {
+    "#": {
+      "type": "wall",
+      "block": "game:planks-oak-ud"
+    },
+    "+": {
+      "type": "wall",
+      "block": "game:rockpolished-chalk"
+    },
+    "w": {
+      "type": "window",
+      "block": "game:planks-oak-ud",
+      "glass": "game:glass-plain"
+    },
+    "W": {
+      "type": "window",
+      "block": "game:rockpolished-chalk",
+      "glass": "game:glass-plain"
+    },
+    "d": {
+      "type": "door",
+      "block": "game:planks-oak-ud"
+    },
+    "e": {
+      "type": "door",
+      "block": "game:rockpolished-chalk"
+    },
+    "C": {
+      "type": "chimney",
+      "block": "game:claybricks-good-fire"
+    },
+    "P": {
+      "type": "post",
+      "block": "game:log-placed-oak-ud",
+      "floor": "game:stonebricks-andesite"
+    },
+    ".": {
+      "type": "floor",
+      "block": "game:planks-oak-ud"
+    },
+    "p": {
+      "type": "floor",
+      "block": "game:stonebricks-andesite"
+    },
+    "_": {
+      "type": "void"
+    }
+  },
+  "storeys": [
+    {
+      "_comment": "ground: kitchen back (door NE), dining mid, living front with east-wall stair run rising north, double front door",
+      "floor_y": 0,
+      "wall_h": 3,
+      "grid": [
+        "##ww##d###",
+        "#........#",
+        "w..C.....w",
+        "#........#",
+        "#+++e++++#",
+        "#........#",
+        "w........w",
+        "#........#",
+        "#+++e++++#",
+        "#.......4#",
+        "w.......3w",
+        "#.......2#",
+        "w.......1w",
+        "##w#dd#w##",
+        " pppppppp ",
+        " pppppppp ",
+        " pppppppp ",
+        " PppPpppP "
+      ]
+    },
+    {
+      "_comment": "upstairs under the gable roof: chalk gable walls N/S with window bands, stairwell void along the east wall",
+      "floor_y": 4,
+      "wall_h": 2,
+      "grid": [
+        " +WWWWWW+ ",
+        "..........",
+        "..........",
+        "..........",
+        "..........",
+        "..........",
+        "..........",
+        "..........",
+        ".+++e+++..",
+        "........_.",
+        "........_.",
+        "........_.",
+        "..........",
+        " +WWWWWW+ "
+      ]
+    }
+  ],
+  "roofs": [
+    {
+      "_comment": "west slope of the front gable, ridge x4-5",
+      "rect": [
+        -1,
+        -1,
+        4,
+        13
+      ],
+      "edge": "W",
+      "eave_y": 4,
+      "run": 1,
+      "slanted": "grayclay"
+    },
+    {
+      "_comment": "east slope",
+      "rect": [
+        5,
+        -1,
+        10,
+        13
+      ],
+      "edge": "E",
+      "eave_y": 4,
+      "run": 1,
+      "slanted": "grayclay"
+    },
+    {
+      "_comment": "flat porch roof under the front gable",
+      "rect": [
+        0,
+        14,
+        9,
+        18
+      ],
+      "edge": "FLAT",
+      "eave_y": 4,
+      "block": "game:clayshinglelabs-gray-down-free"
+    }
+  ]
+}

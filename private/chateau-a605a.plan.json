@@ -1,0 +1,258 @@
+{
+  "_comment": "Plan A605-A, modern French chateau (~132'x58'). PRIVATE - modern copyrighted plan, personal use only, never ship. Basement omitted. Scale 1 block = 2 ft; z0 = north/back (deck side), front door faces south.",
+  "name": "chateau-a605a",
+  "stairs": {
+    "wood": "oak"
+  },
+  "legend": {
+    "#": {
+      "type": "wall",
+      "block": "game:stonebricks-limestone"
+    },
+    "+": {
+      "type": "wall",
+      "block": "game:planks-oak-ud"
+    },
+    "w": {
+      "type": "window",
+      "block": "game:stonebricks-limestone",
+      "glass": "game:glass-plain"
+    },
+    "d": {
+      "type": "door",
+      "block": "game:stonebricks-limestone"
+    },
+    "e": {
+      "type": "door",
+      "block": "game:planks-oak-ud"
+    },
+    "C": {
+      "type": "chimney",
+      "block": "game:stonebricks-limestone"
+    },
+    "P": {
+      "type": "post",
+      "block": "game:stonebricks-limestone",
+      "floor": "game:stonebricks-limestone"
+    },
+    ".": {
+      "type": "floor",
+      "block": "game:planks-oak-ud"
+    },
+    "p": {
+      "type": "floor",
+      "block": "game:stonebricks-limestone"
+    },
+    "_": {
+      "type": "void"
+    }
+  },
+  "storeys": [
+    {
+      "_comment": "ground",
+      "floor_y": 0,
+      "wall_h": 3,
+      "grid": [
+        "                              ppppppppppppppppppp",
+        "                              ppppppppppppppppppp",
+        "                              ppppppppppppppppppp",
+        "                              ppppppppppppppppppp",
+        "                              ppppppppppppppppppp",
+        "                              ppppppppppppppppppp",
+        "                           ##w#dd#w#w##Cw#ddw### #w#w#",
+        "                           #..........+........##.....#",
+        "                           #..........+........#.......#",
+        "                           w..........e........#.......#",
+        "                           #..........+........#.......#",
+        "                           #..........+........#.......#",
+        "                           w..........+........#.......#",
+        "                           #..........+........##.....#",
+        "     ###########PppppPppppP##################e######e#####w###w###",
+        "     #ppppppppp#ppppppppppp#pppppppppp#.....+.....+....#.........#",
+        "     #ppppppppp#ppppppppppp#pppppppp4p#.....+.4...+....w.........#",
+        "     wppppppppp#ppppppppppp#pppppppp3pe.....+.3...e....e.........w",
+        "     #ppppppppp#ppppppppppp#pppppppp2p#.....+.2...+....#.........#",
+        "     #ppppppppp#ppppppppppp#pppppppp1p#.....+.1...+....w.........#",
+        " ### #pppppppppepppppppppppepppppppppp##e#####e#########++e++++++#",
+        "#...##ppppppppp#ppppppppppp#pppppppppp#.....+.....+....#ppppppppp#",
+        "w...eeppppppppp#ppppppppppp#pppppppppp#.....e.....e....epppppppppw",
+        "#...##ppppppppp#ppppppppppp#pppppppppp#.....+.....+....#ppppppppp#",
+        "w...#wppppppppp#ppppppppppp#pppppppppp#.....+.....+....#ppppppppp#",
+        " ### #ppppppppp#ppppppppppp#pppppppppp##w#w###dd####w#w#ppppppppp#",
+        "     ###ddd#w###PppppPppppP###ddd#w####    pppppppp    ###ddd#w###",
+        "                                           PppppppP",
+        ""
+      ]
+    },
+    {
+      "_comment": "second floor + bonus wing over garages/porte cochere",
+      "floor_y": 4,
+      "wall_h": 3,
+      "grid": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "                           ##w#w##w#w###ww#ww### #w#w#",
+        "                           #..........#.______.##.....#",
+        "                           #..........#.______.#.......#",
+        "                           w..........#.______.#.......#",
+        "                           #..........e.______.e.......#",
+        "                           #..........#.______.#.......#",
+        "                           w..........#.______.#.......#",
+        "                           #..........#........##.....#",
+        "     ##################################..........#######",
+        "     #.........+...........+..........#.....+1....+....#",
+        "     #.........+...........+..........#.....+2....+....w",
+        "     w.........+...........+..........e.....+3....e....#",
+        "     #.........+...........+..........#.....+4....+....#",
+        "     #.........+...........+..........#.....+.....+....#",
+        " ### #.........e...........e..........#++e+++++++e++++++",
+        "#...##.........+...........+..........#.....+____.+....#",
+        "w...ee.........+...........+..........#.....+____.e....#",
+        "#...##.........+...........+..........#.....+____.+....w",
+        "w...#w.........+...........+..........#.....+____.+....#",
+        " ### #.........+...........+..........##w#w###w#####w#w#",
+        "     ##w##w##w####w##w##w#####w###w####",
+        "",
+        ""
+      ]
+    },
+    {
+      "_comment": "central stair tower + west round tower, third level",
+      "floor_y": 8,
+      "wall_h": 3,
+      "grid": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "                                            ##w#w##",
+        "                                            #.....#",
+        "                                            w.....w",
+        "                                            #.....#",
+        "                                            w.....w",
+        "                                            #.....#",
+        " ###                                        ##w#w##",
+        "#...#",
+        "w...#",
+        "#...#",
+        "w...#",
+        " ###",
+        "",
+        "",
+        ""
+      ]
+    }
+  ],
+  "roofs": [
+    {
+      "_comment": "family block hip",
+      "rect": [
+        26,
+        5,
+        38,
+        14
+      ],
+      "edge": "HIP",
+      "eave_y": 7,
+      "slanted": "slate"
+    },
+    {
+      "_comment": "main north hip (grand + master)",
+      "rect": [
+        38,
+        5,
+        56,
+        15
+      ],
+      "edge": "HIP",
+      "eave_y": 7,
+      "slanted": "slate"
+    },
+    {
+      "_comment": "main south hip (kitchen/dining/library rows)",
+      "rect": [
+        38,
+        14,
+        56,
+        26
+      ],
+      "edge": "HIP",
+      "eave_y": 7,
+      "slanted": "slate"
+    },
+    {
+      "_comment": "west wing hip, flush west so it does not stab the round tower",
+      "rect": [
+        5,
+        14,
+        38,
+        27
+      ],
+      "edge": "HIP",
+      "eave_y": 7,
+      "slanted": "slate"
+    },
+    {
+      "_comment": "east wing steep hip",
+      "rect": [
+        54,
+        13,
+        66,
+        27
+      ],
+      "edge": "HIP",
+      "eave_y": 3,
+      "slanted": "slate"
+    },
+    {
+      "_comment": "central tower spire, flush on walls (overhang leaves a sky slot)",
+      "rect": [
+        44,
+        14,
+        50,
+        20
+      ],
+      "edge": "HIP",
+      "eave_y": 13,
+      "slanted": "slate"
+    },
+    {
+      "_comment": "west round tower cone, flush",
+      "rect": [
+        0,
+        20,
+        4,
+        25
+      ],
+      "edge": "HIP",
+      "eave_y": 11,
+      "slanted": "slate"
+    },
+    {
+      "_comment": "front porch canopy",
+      "rect": [
+        42,
+        26,
+        51,
+        28
+      ],
+      "edge": "FLAT",
+      "eave_y": 4,
+      "block": "game:clayshinglelabs-gray-down-free"
+    }
+  ]
+}

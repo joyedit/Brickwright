@@ -1,0 +1,90 @@
+{
+  "_comment": "Radford's Artistic Bungalows (1908) p15, Design No. 6001-B. 33' x 40' two-storey house: main side-gable roof (ridge W-E, y15) with a front-facing cross gable over the west bays, wraparound porch south + west on posts, east-wall stair hall, chimney at the east slope. Clapboard -> oak planks, half-timbered gables -> chalk. Scale 1 block = 2 ft; z0 = north/back.",
+  "name": "radford-6001b",
+  "stairs": {"wood": "oak"},
+  "legend": {
+    "#": {"type": "wall",    "block": "game:planks-oak-ud"},
+    "+": {"type": "wall",    "block": "game:rockpolished-chalk"},
+    "w": {"type": "window",  "block": "game:planks-oak-ud",
+          "glass": "game:glass-plain"},
+    "d": {"type": "door",    "block": "game:planks-oak-ud"},
+    "e": {"type": "door",    "block": "game:rockpolished-chalk"},
+    "C": {"type": "chimney", "block": "game:claybricks-good-fire"},
+    "P": {"type": "post",    "block": "game:log-placed-oak-ud",
+          "floor": "game:stonebricks-andesite"},
+    ".": {"type": "floor",   "block": "game:planks-oak-ud"},
+    "p": {"type": "floor",   "block": "game:stonebricks-andesite"},
+    "_": {"type": "void"}
+  },
+  "storeys": [
+    {
+      "_comment": "ground: dining NW, kitchen NE (back door), living SW, stair hall SE with east-wall run rising north, front door center, porch wrapping south + west",
+      "floor_y": 0,
+      "wall_h": 3,
+      "grid": [
+        "  ##ww####ww#d##",
+        "  #.....+......#",
+        "  w.....+......w",
+        "  #.....+......#",
+        "  w.....+..C...w",
+        "  #.....e......#",
+        "  #.....+......#",
+        "  #++e++++++e++#",
+        "Pp#.....+......#",
+        "ppw.....+.....4#",
+        "pp#.....+.....3#",
+        "Pp#.....e.....2#",
+        "ppw.....+.....1#",
+        "pp#.....+......#",
+        "Pp#.....+......#",
+        "pp##ww####d#ww##",
+        "pppppppppppppppp",
+        "pppppppppppppppp",
+        "PpppPpppPpppPppP"
+      ]
+    },
+    {
+      "_comment": "upstairs: four bedrooms around a center hall, stairwell void along the east wall, chalk cross-gable band on the front west bays",
+      "floor_y": 4,
+      "wall_h": 3,
+      "grid": [
+        "  ##ww####ww####",
+        "  #.....+......#",
+        "  w.....+......w",
+        "  #.....+......#",
+        "  w.....+..C...w",
+        "  #.....e......#",
+        "  #.....+......#",
+        "  #++e++++++e++#",
+        "  #.....+......#",
+        "  w.....+....._#",
+        "  #.....+....._#",
+        "  #.....e....._#",
+        "  w.....+......#",
+        "  #.....+......#",
+        "  #.....+......#",
+        "  ##ww####ww####"
+      ]
+    }
+  ],
+  "roofs": [
+    {"_comment": "main north slope, ridge z7-8 at y15",
+     "rect": [1, -1, 16, 7], "edge": "N", "eave_y": 7, "run": 1,
+     "slanted": "grayclay"},
+    {"_comment": "main south slope",
+     "rect": [1, 8, 16, 16], "edge": "S", "eave_y": 7, "run": 1,
+     "slanted": "grayclay"},
+    {"_comment": "front cross gable, west slope (ridge x5-6 at y11)",
+     "rect": [1, 8, 5, 16], "edge": "W", "eave_y": 7, "run": 1,
+     "slanted": "grayclay"},
+    {"_comment": "front cross gable, east slope, dies into the main south slope",
+     "rect": [6, 8, 9, 16], "edge": "E", "eave_y": 8, "run": 1,
+     "slanted": "grayclay"},
+    {"_comment": "flat roof over the west porch strip",
+     "rect": [-1, 8, 1, 16], "edge": "FLAT", "eave_y": 4,
+     "block": "game:clayshinglelabs-gray-down-free"},
+    {"_comment": "flat roof over the south porch",
+     "rect": [0, 16, 16, 19], "edge": "FLAT", "eave_y": 4,
+     "block": "game:clayshinglelabs-gray-down-free"}
+  ]
+}

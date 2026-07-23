@@ -1,0 +1,32 @@
+{
+  "_comment": "obsidian-coven palette consolidation: natural terrain hue blobs (diorite/granite/calcite/dripstone) collapse into the andesite base, minor colored glass + gem/terracotta accents merge into violet, stray tree species become oak. Dark basalt family (bedrock/obsidian/deepslate) and red nether brick accent kept as-is.",
+
+  "bedrock": null,
+
+  "diorite": "game:rockpolished-andesite",
+  "polished_diorite": "game:rockpolished-andesite",
+  "granite": "game:rockpolished-andesite",
+  "calcite": "game:rockpolished-andesite",
+  "dripstone_block": "game:cobblestone-andesite",
+  "clay": "game:soil-medium-none",
+  "gravel": "game:gravel-andesite",
+  "sand": "game:sand-andesite",
+
+  "red_stained_glass": "game:glass-violet",
+  "blue_stained_glass": "game:glass-violet",
+  "cyan_stained_glass": "game:glass-violet",
+  "light_blue_stained_glass": "game:glass-violet",
+  "purple_stained_glass": "game:glass-violet",
+  "magenta_stained_glass": "game:glass-violet",
+  "brown_stained_glass": "game:glass-smoky",
+  "white_stained_glass": "game:glass-plain",
+  "blue_terracotta": "game:glass-violet",
+  "purple_terracotta": "game:glass-violet",
+  "diamond_block": "game:glass-violet",
+  "lapis_block": "game:glass-violet",
+
+  "birch_log": "game:log-placed-oak-ud",
+  "jungle_log": "game:log-placed-oak-ud",
+  "birch_leaves": "game:leaves-placed-oak",
+  "jungle_leaves": "game:leaves-placed-oak"
+}
