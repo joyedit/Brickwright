@@ -4,7 +4,7 @@
   "name": "Brickwright",
   "authors": ["Feyd"],
   "description": "Import digital Lego builds (LDraw .ldr/.mpd or MagicaVoxel .vox) into Vintage Story. Convert plans with the bundled ldr2vs tool, drop the result in ModConfig/brickwright, then place them in-world with /bw paste.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "logo": "modicon.png",
   "side": "Universal",
   "dependencies": {
