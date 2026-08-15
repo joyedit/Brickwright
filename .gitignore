@@ -1,3 +1,6 @@
 bin/
 obj/
 *.zip
+
+# Reference planbook scans (~2 GB, kept locally, too large for GitHub)
+planbooks/
